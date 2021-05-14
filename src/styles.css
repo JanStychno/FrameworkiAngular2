@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
+ul{
+  list-style: none;
+
+}
+
+*{
+  background-color: lightskyblue;
+  color: aliceblue;
+  font-family: 'Kiwi Maru', serif;
+}
+
+h2{
+  text-align: center;
+  font-size: 30px;
+}
+
+button{
+  border-radius: 4px;
+  background-color: #008CBA;
+  transition-duration: 0.7s;
+  width: 200px;
+
+}
+button:hover{
+  background-color: royalblue;
+
+}
+label {
+  color: lightslategrey;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input {
+  background: royalblue;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid aliceblue;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+

@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angularzajecia1'`, () => {
+  it(`should have as title 'frameworkicw2'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angularzajecia1');
+    expect(app.title).toEqual('frameworkicw2');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('angularzajecia1 app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('frameworkicw2 app is running!');
   });
 });
